@@ -23,7 +23,7 @@
     <div class="row profil-link-option">
         <ProfilLink 
             class="link"
-            :imagePath="'/public/people/pexels-yaroslav-shuraev-4511158.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/pexels-yaroslav-shuraev-4511158.jpg'" :profil-name="'Catj'"
             :profilOption="'Basculer'"
             :profilName="'Fabien'"
             :profilSpeudo="'fabien-link-option'"
@@ -37,31 +37,31 @@
             </span>
         </div>
         <ProfilLink 
-            :imagePath="'/public/people/pexels-min-an-1134188.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/pexels-min-an-1134188.jpg'" :profil-name="'Catj'"
             :profilOption="'Suivre'"
             :profilName="'Julien'"
             :profilSpeudo="'Julien le bg'"    
         />
         <ProfilLink 
-            :imagePath="'/public/people/pexels-pixabay-247304.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/pexels-pixabay-247304.jpg'" :profil-name="'Catj'"
             :profilOption="'Suivre'"
             :profilName="'Conan'"
             :profilSpeudo="'Comman'"    
         />
         <ProfilLink 
-            :imagePath="'/public/people/pexels-rajaa-lemnari-19744641.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/pexels-rajaa-lemnari-19744641.jpg'" :profil-name="'Catj'"
             :profilOption="'Suivre'"
             :profilName="'Mbappe'"
             :profilSpeudo="'stdll'"    
         />
         <ProfilLink 
-            :imagePath="'/public/people/pexels-vetrova-z-14485068.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/pexels-vetrova-z-14485068.jpg'" :profil-name="'Catj'"
             :profilOption="'Suivre'"
             :profilName="'Peter'"
             :profilSpeudo="'pet_s@s'"    
         />
         <ProfilLink 
-            :imagePath="'/public/people/téléchargement.jpg'" :profil-name="'Catj'"
+            :imagePath="'/people/téléchargement.jpg'" :profil-name="'Catj'"
             :profilOption="'Suivre'"
             :profilName="'Rojo'"
             :profilSpeudo="'cluster'"    
@@ -76,7 +76,7 @@
         name: "ProfilOption",
         data(){
             return{
-                imagepath:"/public/people/"
+                imagepath:"/people/"
             }
         },
         components: {
