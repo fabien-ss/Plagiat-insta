@@ -1,7 +1,7 @@
 <template>
     <div class="main-div">
         <div class="row">
-            <div class="left-content col-2">
+            <div class="left-content col-2 collapse-wrapper">
                 <sideBar />
             </div>
             <div class="col-2"></div>
@@ -12,10 +12,6 @@
                 </div>
             </div>
             <div class="posts row">
-                <Post />
-                <Post />
-                <Post />
-                <Post />
                 <Post />
             </div>
         </div>

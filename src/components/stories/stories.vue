@@ -11,8 +11,8 @@
 
 <template>
     <div class="profil-stories">
-        <Profil :profil-picture="'/public/people/pexels-dina-sabry-17039654.jpg'" :profil-name="'Oboy'"/>
-        <Profil :profil-picture="'/public/people/pexels-yaroslav-shuraev-4511158.jpg'" :profil-name="'Catj'"/>
+        <Profil :profil-picture="'/people/pexels-dina-sabry-17039654.jpg'" :profil-name="'Oboy'"/>
+        <Profil :profil-picture="'/people/pexels-yaroslav-shuraev-4511158.jpg'" :profil-name="'Catj'"/>
         <Profil :profil-picture="this.routeImagePath + 'pexels-suliman-sallehi-1822458.jpg'" :profil-name="'o@S_joker'"/>
         <Profil :profilPicture="this.routeImagePath + 'pexels-rajaa-lemnari-19744641.jpg'" :profil-name="'uFa'"/>
         <Profil :profilPicture="this.routeImagePath + 'pexels-suliman-sallehi-1822458.jpg'" :profil-name="'dont'"/>
@@ -31,7 +31,7 @@
         },
         data() {
             return {
-                routeImagePath: "/public/people/"
+                routeImagePath: "/people/"
             }
         }
     }

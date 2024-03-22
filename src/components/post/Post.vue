@@ -39,6 +39,10 @@
     .comments{
         opacity: 50%;
     }
+    i:hover{
+        stroke: #f5356e;
+        fill: #f5356e;
+    }
 </style>
 
 <template>
@@ -46,7 +50,7 @@
         <div class="row">
             <div class="details col-11">
                 <div class="img-2 col-1">
-                    <img id="icon-1" class="col-1" src="/public/people/30 Inspiring Examples of Levitation Photography - Inspirationfeed.jpg">
+                    <img id="icon-1" class="col-1" src="/people/30 Inspiring Examples of Levitation Photography - Inspirationfeed.jpg">
                 </div>
                 <div class="col-11" style="margin-top: 3%; margin-left: 3%; font-weight: bold;">
                     Fabien 
@@ -57,12 +61,14 @@
             </div>
         </div>
         <div class="row profil-post">
-            <img src="/public/people/pexels-vetrova-z-14485068.jpg">
+            <img src="/people/pexels-vetrova-z-14485068.jpg">
         </div>
         <div class="row icon-group">
             <div class="col-11">
-                <i class="bi bi-suit-heart"></i>
-                <i class="bi bi-menu-up"></i>
+                <i class="bi bi-suit-heart" id="like-icon"></i>
+                <!---
+                    <i class="bi bi-menu-up"></i>
+                -->
                 <i class="bi bi-send"></i>
             </div>
             <div class="col-1">
@@ -84,6 +90,11 @@
         name: "Post",
         data(){
             return {}
+        },
+        methods:{
+           doLike(){
+
+           } 
         }
     }
 </script>
