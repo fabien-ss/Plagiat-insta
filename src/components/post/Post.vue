@@ -36,6 +36,9 @@
         font-weight: bold;
         font-size: 14px;
     }
+    .comments{
+        opacity: 50%;
+    }
 </style>
 
 <template>
