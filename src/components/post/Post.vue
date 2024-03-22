@@ -43,6 +43,10 @@
         stroke: #f5356e;
         fill: #f5356e;
     }
+    .carousel-container{
+        aspect-ratio: 1 / 1; /* This ensures the container is a square */
+        overflow: hidden;
+    }
 </style>
 
 <template>
@@ -61,14 +65,32 @@
             </div>
         </div>
         <div class="row profil-post">
-            <img src="/people/pexels-vetrova-z-14485068.jpg">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner carousel-container">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="/people/pexels-rajaa-lemnari-19744641.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="/people/pexels-vetrova-z-14485068.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="/people/téléchargement.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="/people/pexels-min-an-1134188.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+            </div>
         </div>
         <div class="row icon-group">
             <div class="col-11">
                 <i class="bi bi-suit-heart" id="like-icon"></i>
-                <!---
-                    <i class="bi bi-menu-up"></i>
-                -->
                 <i class="bi bi-send"></i>
             </div>
             <div class="col-1">
